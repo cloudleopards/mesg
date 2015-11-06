@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+{% load staticfiles %} <!-- New line -->
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,7 +9,10 @@
 <body>
 <h1> Leopard says....</h1>
 hello world! <strong> {{ boldmessage }} </strong><br />
-<a href="/leopard/about/"</a>About<br />
+<img src="{% static "images/1.jpg" %}" alt = "Pictures of Cloud" />
+<br/><!--new line-->
+
+<a href="/leopard/about/"</a>About<br /><!-- New line -->
 
 </body>
 
